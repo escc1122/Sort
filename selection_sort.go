@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-//插入排序法
+//選擇排序法
 func SelectionSort(array []int) {
 	for i := 0; i < len(array); i++ {
 		minIndex := i
