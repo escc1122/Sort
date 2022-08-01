@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+//冒泡排序
 func BubbleSort(array []int) {
 	for i := 0; j < len(array); i++ {
 		for j := i; j < len(array); j++ {
